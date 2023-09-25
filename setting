@@ -1,0 +1,3 @@
+api.mapkey('<shift-t>', 'Choose a tab with omnibar', function() {
+    api.Front.openOmnibar({type: "Tabs"});
+});
