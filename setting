@@ -49,7 +49,9 @@ settings.theme = `
 }`;
 
 ### my own setting
-api.mapkey('<shift-t>', 'Choose a tab with omnibar', function() {
-    api.Front.openOmnibar({type: "Tabs"});
-});
+#api.mapkey('<space>', 'Choose a tab with omnibar', function() {
+#    api.Front.openOmnibar({type: "Tabs"});
+#});
+
+settings.tabsThreshold = 0;
 ###
