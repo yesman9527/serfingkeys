@@ -49,5 +49,5 @@ settings.theme = `
 }`;
 // click `Save` button to make above settings to take effect.</ctrl-i></ctrl-y>
 
-################### my own setting
-settings.tabsThreshold = 0;
+//################### my own setting
+settings.tabsThreshold = 10;
