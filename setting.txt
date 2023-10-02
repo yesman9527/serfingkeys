@@ -52,7 +52,7 @@ settings.theme = `
 //################### my own setting
 settings.tabsThreshold = 0;
 
-// ###### word translate, keystroke: cq
+// ###### word translate, keystroke: cq and Q
 api.Front.registerInlineQuery({
     url: function(q) {
         return `http://dict.youdao.com/w/eng/${q}/#keyfrom=dict2.index`;
